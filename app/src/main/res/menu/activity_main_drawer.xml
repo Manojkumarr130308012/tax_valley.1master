@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/nav_expense"
+            android:icon="@drawable/ic_baseline_all_inclusive_24"
+            android:title="Expenses" />
+
+        <item
+            android:id="@+id/nav_sale"
+            android:icon="@drawable/ic_supervisor"
+            android:visible="false"
+            android:title="My Sale" />
+
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_supervisor"
+            android:visible="false"
+            android:title="Track" />
+
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/nav_directory"
+            android:visible="true"
+            android:title="Location" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/nav_news_feed"
+            android:visible="true"
+            android:title="Mapview" />
+
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/nav_signout"
+            android:title="SignOut" />
+
+<!--
+
+    <item android:title="Permission">
+        <menu>
+
+            <item
+                android:id="@+id/usergroup"
+                android:icon="@drawable/nav_salary"
+                android:title="Usergroup" />
+            <item
+                android:id="@+id/user"
+                android:icon="@drawable/nav_salary"
+                android:title="User" />
+            <item
+                android:id="@+id/template"
+                android:icon="@drawable/nav_policy"
+                android:title="Template" />
+            <item
+                android:id="@+id/templatemodule"
+                android:icon="@drawable/nav_policy"
+                android:title="TemplateModule" />
+            <item
+                android:id="@+id/permissiontemplate"
+                android:icon="@drawable/nav_policy"
+                android:title="TemplatePermission" />
+
+        </menu>
+    </item>
+-->
+
+
+
+
+
+   <!-- <item android:title="Admin Masters">
+        <menu>
+
+
+            <item
+                android:id="@+id/bussiness"
+                android:icon="@drawable/nav_salary"
+                android:title="Business" />
+            <item
+                android:id="@+id/plant"
+                android:icon="@drawable/nav_policy"
+                android:title="Plant" />
+
+            <item
+                android:id="@+id/uom"
+                android:icon="@drawable/nav_policy"
+                android:title="Uom" />
+
+            <item
+                android:id="@+id/Varient"
+                android:icon="@drawable/nav_policy"
+                android:title="Varient" />
+
+            <item
+                android:id="@+id/store"
+                android:icon="@drawable/nav_policy"
+                android:title="Store" />
+            <item
+                android:id="@+id/department"
+                android:icon="@drawable/nav_policy"
+                android:title="department" />
+            <item
+                android:id="@+id/design"
+                android:icon="@drawable/nav_policy"
+                android:title="Designation" />
+            <item
+                android:id="@+id/empcategory"
+                android:icon="@drawable/nav_policy"
+                android:title="Empcategory" />
+            <item
+                android:id="@+id/subdep"
+                android:icon="@drawable/nav_policy"
+                android:title="Subdepartment" />
+            <item
+                android:id="@+id/workdiv"
+                android:icon="@drawable/nav_policy"
+                android:title="Workdivision" />
+            <item
+                android:id="@+id/Employeee"
+                android:icon="@drawable/nav_policy"
+                android:title="Employeee" />
+            <item
+                android:id="@+id/ledgergroup"
+                android:icon="@drawable/nav_policy"
+                android:title="Ledgergroup" />
+            <item
+                android:id="@+id/ledgerdubgroup"
+                android:icon="@drawable/nav_policy"
+                android:title="Ledgersubgroup" />
+
+            <item
+                android:id="@+id/ledger"
+                android:icon="@drawable/nav_policy"
+                android:title="Ledger" />
+            <item
+                android:id="@+id/finyear"
+                android:icon="@drawable/nav_policy"
+                android:title="Finasial year" />
+            <item
+                android:id="@+id/tax"
+                android:icon="@drawable/nav_policy"
+                android:title="Tax" />
+            <item
+                android:id="@+id/itemcatgory"
+                android:icon="@drawable/nav_policy"
+                android:title="Itemcatgory" />
+            <item
+                android:id="@+id/itemsubcategory"
+                android:icon="@drawable/nav_policy"
+                android:title="ItemSubcatgory" />
+            <item
+                android:id="@+id/recipe"
+                android:icon="@drawable/nav_policy"
+                android:title="Recipe" />
+            <item
+                android:id="@+id/terms"
+                android:icon="@drawable/nav_policy"
+                android:title="Terms" />
+            <item
+                android:id="@+id/payterms"
+                android:icon="@drawable/nav_policy"
+                android:title="PayTerms" />
+            <item
+                android:id="@+id/ordertype"
+                android:icon="@drawable/nav_policy"
+                android:title="OrderType" />
+
+            <item
+                android:id="@+id/pocancel"
+                android:icon="@drawable/nav_policy"
+                android:title="PoCancelReason" />
+
+            <item
+                android:id="@+id/wastetype"
+                android:icon="@drawable/nav_policy"
+                android:title="Waste Type" />
+            <item
+                android:id="@+id/customer"
+                android:icon="@drawable/nav_policy"
+                android:title="Customer" />
+
+            <item
+                android:id="@+id/vendor"
+                android:icon="@drawable/nav_policy"
+                android:title="vendor" />
+            <item
+                android:id="@+id/Ingredient"
+                android:icon="@drawable/nav_policy"
+                android:title="Ingredient" />
+
+            <item
+                android:id="@+id/Productcatg"
+                android:icon="@drawable/nav_policy"
+                android:title="Productcatg" />
+            <item
+                android:id="@+id/product"
+                android:icon="@drawable/nav_salary"
+                android:title="Product"/>
+            <item
+                android:id="@+id/productetail"
+                android:icon="@drawable/nav_salary"
+                android:title="ProductDetails"/>
+           &lt;!&ndash; <item
+                android:id="@+id/nav_tracking"
+                android:icon="@drawable/nav_request"
+                android:title="Tracking" />&ndash;&gt;
+        </menu>
+    </item>
+-->
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
